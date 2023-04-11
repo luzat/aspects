@@ -1,0 +1,29 @@
+{
+    "name": "luzat/aspects",
+    "description": "Add free aspect ratio to ws_slider",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "Thomas Luzat",
+            "email": "thomas@luzat.com",
+            "homepage": "https://luzat.com",
+            "role": "developer"
+        }
+    ],
+    "homepage": "https://github.com/luzat/aspects/",
+    "support": {
+        "issues": "https://github.com/luzat/aspects/issues",
+        "source": "https://github.com/luzat/aspects/"
+    },
+    "require": {
+        "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+        "typo3/cms-core": "^11.5 || ^12.0",
+        "svewap/ws-slider": "^0.9"
+    },
+    "prefer-stable": true,
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "aspects"
+        }
+    }
+}
